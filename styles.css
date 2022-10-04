@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     font-family: Calibri;
+    padding: 15px;
 }
 
 
@@ -9,6 +10,8 @@
     display: grid;
     justify-content: center;
     font-family: Calibri;
+    padding-top: 200px;
+    padding-bottom: 450px;
 
 }
 
