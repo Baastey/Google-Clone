@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+
+
     <!--script src="https://cdn.tailwindcss.com"></script-->
 </head>
 <body>
 <header>
-    <nav>
+    <nav class="navbar">
         <div>
             <a>Über Google</a>
             <a>Store</a>
@@ -21,36 +24,38 @@
     </nav>
 </header>
 <main>
-    <div>
+    <div class="main">
         <img src="GoogleBunt.png">
+        <br>
         <input type="search">
         <br>
-        <input type="button" value="Google Suche">
-        <input type="button" value="Auf gut Glück!">
+        <div class="buttons-main">
+            <input type="button" value="Google Suche">
+            <input type="button" value="Auf gut Glück!">
+        </div>
     </div>
 </main>
 <footer>
     <div>
         <div>
-            <nav>
-                <a>Deutschland</a>
-            </nav>
+            <a>Deutschland</a>
         </div>
-        <nav>
+        <br>
+        <div class="footer">
             <div>
                 <a>Werbeprogramme</a>
                 <a>Unternehmen</a>
                 <a>Wie funktioniert die Google Suche?</a>
             </div>
             <div>
-                <a>CO2-neutral seit 2007</a>
+                <a><img src="Blatt-Google.png" height="14"> CO2-neutral seit 2007</a>
             </div>
             <div>
                 <a>Datenschutzerklärung</a>
                 <a>Nutzungsbedingungen</a>
                 <a>Einstellungen</a>
             </div>
-        </nav>
+        </div>
     </div>
 </footer>
 </body>

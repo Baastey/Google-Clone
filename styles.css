@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: Calibri;
+}
+
+
+.main {
+    display: grid;
+    justify-content: center;
+    font-family: Calibri;
+
+}
+
+.buttons-main {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Calibri;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: Calibri;
+    border-top: 1px solid;
+
+}
