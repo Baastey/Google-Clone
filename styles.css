@@ -2,20 +2,18 @@
     display: flex;
     justify-content: space-between;
     font-family: Calibri;
-    padding: 15px;
+    padding-top: 10px;
 }
 
 
 .main {
-    display: grid;
     justify-content: center;
     font-family: Calibri;
-    padding-top: 200px;
-    padding-bottom: 450px;
-
+    flex-grow: 1;
 }
 
 .buttons-main {
+    object-fit: contain;
     display: flex;
     justify-content: space-evenly;
     font-family: Calibri;
@@ -27,4 +25,38 @@
     font-family: Calibri;
     border-top: 1px solid;
 
+}
+.first {
+    padding-left: 15px;
+}
+.othernav{
+    padding: 0 15px;
+}
+.firstright {
+    padding-right: 15px;
+}
+.searchbar{
+    height: 30px;
+    width: 400px;
+}
+.logo{
+    justify-self: center;
+}
+
+.footeritemfirst{
+    padding-left: 15px;
+}
+.footeritemother{
+    padding: 0 15px;
+}
+.footeritemsecond{
+    padding-right: 15px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    line-height: inherit;
 }
